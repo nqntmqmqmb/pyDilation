@@ -40,6 +40,6 @@ You can use PyDilation as a module by putting `dilation.py` it the same folder a
 
 `dilation.Schwarzschild()` two arguments : `mass` which is the solar mass of your object and `details`*
 `dilation.time_Space()` two arguments : `SR` which is the Schwarzschild Radius of your object and `details`*
-`dilation.Shift()` two arguments : `time_space` which is the distance of time space at the surface of the objec and `details`*
+`dilation.Shift()` two arguments : `time_space` which is the distance of time space at the surface of the object and `details`*
 
 *`details` is an additional parameter to print (or not) more informations about the calculation.
