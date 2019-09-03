@@ -31,3 +31,15 @@ RS = 2GM/c²<br/>
 `= 0.999999999999323035`<br/>
 `365 * 24 * 3600 - 365 * 24 * 3600 * 0.999999999999323035`<br/>
 `= 0.00002134876824s`<br/>
+
+# Module
+You can use PyDilation as a module by putting `dilation.py` it the same folder as your script.<br>
+`dilation.Schwarzschild()` or `Schwarzschild()` is used to calculate the <a href="https://en.wikipedia.org/wiki/Schwarzschild_radius">Schwarzschild Radius</a><br>
+`dilation.time_Space()` or `time_Space()` is used to calculate the distance of time space at the surface of the object<br>
+`dilation.Shift()` or `Shift()` is used to calculate the Shift between the object and a distant observer.
+
+`dilation.Schwarzschild()` two arguments : `mass` which is the solar mass of your object and `details`*
+`dilation.time_Space()` two arguments : `SR` which is the Schwarzschild Radius of your object and `details`*
+`dilation.Shift()` two arguments : `time_space` which is the distance of time space at the surface of the objec and `details`*
+
+*`details` is an additional parameter to print (or not) more informations about the calculation.
